@@ -3,7 +3,7 @@ import './card.css'
 
 const Card = (props) =>{
     return(
-        <div className='card' style={{textTransform: 'uppercase', color: 'red'}}>{props.children}</div>
+        <div className='card' style={{textTransform: 'uppercase', color: 'red', fontWeight: 'bold'}}>{props.children}</div>
     )
 }
 

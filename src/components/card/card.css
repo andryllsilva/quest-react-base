@@ -1,5 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 .card{
     text-align: center;
-    width: 280px;
-    background-color: black;
+    width: 440px;
+    height: 200px;
+    background-color: rgb(43, 42, 42);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
